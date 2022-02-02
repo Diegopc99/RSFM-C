@@ -1,0 +1,12 @@
+Para que el software del barco se inicie de forma automática al arrancar la raspberry, seguir estos pasos:
+
+Escribir en terminal:
+ 
+> crontab -e
+
+Escribir las siguientes líneas al final del fichero:
+
+> SHELL = /bin/bash
+
+> @reboot sleep 60 && /home/pi/Python/script_init_total.sh
+
