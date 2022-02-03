@@ -5,7 +5,7 @@ import paho.mqtt.client as mqtt
 
 from datetime import datetime
 
-destino = "diego1432.duckdns.org"
+destino = "ip"
 puerto = 9000
 
 client = mqtt.Client("client")

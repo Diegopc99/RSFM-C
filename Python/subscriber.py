@@ -51,7 +51,7 @@ def on_message(client, userdata, msg):
 client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message
-client.connect("diego1432.duckdns.org", 9000, 60)
+client.connect("ip", 9000, 60)
 print("Starting connection")
 #battery = psutil.sensors_battery()
 #percent = str(battery.percent)
