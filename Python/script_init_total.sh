@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sshpass -p "1effc6373" ssh -o StrictHostKeyChecking=no pi@diego1432.duckdns.org -p 2000 << EOF
+sshpass -p "pwd" ssh -o StrictHostKeyChecking=no pi@domain -p 2000 << EOF
 	cd RSFM
 	./script_init.sh &
 EOF
